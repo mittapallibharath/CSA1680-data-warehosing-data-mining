@@ -1,0 +1,7 @@
+> num1=as.integer(readline(prompt = "Enter number 1 :"))
+Enter number 1 :5
+> num2=as.integer(readline(prompt = "Enter number 2 :"))
+Enter number 2 :6
+> sum=num1+num2
+> print(sum)
+[1] 11
