@@ -1,0 +1,8 @@
+getwd()
+
+diabetes<-read.csv("diabetes.csv",header=TRUE,sep=",")
+A<-c(diabetes $age)
+minimum<-min(diabetes $age)
+maximum<-max(diabetes $age)
+minmax<-(A-minimum)/(maximum-minimum)
+minmax

@@ -1,0 +1,14 @@
+input<-diabetes[,c("age","insulin","count")]
+model<-lm(age~insulin+count,data=input)
+print(model)
+
+A<-coef(model)[1]
+print(A)
+
+xinsulin<-coef(model)[2]
+ycount<-coef(model)[3]
+print(xinsulin)
+print(ycount)
+
+y=A+xinsulin+ycount
+print(y)
